@@ -2,12 +2,12 @@
 
 import Homework_16 from "./homeworks/Homework_16/Homework_16"
 
-const App = () => {
+function App () {
   return (
-    <div>
+    <>
       {/*<Lesson_16/>*/}
       <Homework_16/>
-    </div>
+    </>
   )
 }
 

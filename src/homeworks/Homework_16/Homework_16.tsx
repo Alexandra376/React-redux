@@ -1,5 +1,5 @@
 import Counter from "components/Counter/Counter";
-function  Homework_16() {
+function Homework_16() {
   return(
     <Counter/>
   )

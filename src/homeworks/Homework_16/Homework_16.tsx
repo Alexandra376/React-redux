@@ -1,8 +1,8 @@
 import Counter from "components/Counter/Counter";
-function Lesson_16() {
+function  Homework_16() {
   return(
     <Counter/>
   )
 }
 
-export default Lesson_16
+export default Homework_16

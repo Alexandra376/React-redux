@@ -1,5 +1,4 @@
 import Button from "components/Button/Button";
-import "./types";
 import {CounterWrapperStyle, ButtonControlStyle, ParagraphStyle} from './style';
 import { counterSliceActions, counterSliceSelectors } from "store/redux/counter/counterSlice"
 import { useAppDispatch, useAppSelector } from "store/hooks";

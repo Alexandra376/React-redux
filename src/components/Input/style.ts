@@ -15,7 +15,7 @@ export const InputContainerStyle = styled.div<InputProps>`
 
 export const InputLabelStyle = styled.label`
     font-size: 16px;
-    color: #6f6f6f;
+    color: black;
 `
 
 export const InputStyle = styled.input<InputProps>`
@@ -24,13 +24,13 @@ export const InputStyle = styled.input<InputProps>`
     padding: 12px 20px;
     outline: none;
     font-size: 16px;
-    border-radius: 40px;
-    border: 1px solid white;
-    color: #FFFFFF;
+    border: 1px solid black;
+    color: black;
     background-color: #ffffff59;
+    border-radius: 5px;
 
     ::placeholder {
-    color: #FFFFFF;
+    color: grey;
 }
 `
 

@@ -9,7 +9,7 @@ export const ButtonStyle = styled.button<ButtonProps>`
     height: 48px;
     outline: none;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 12px 40px;
     background: #3678B4;
     opacity: ${({disabled}) => disabled ? 0.7 : 1};

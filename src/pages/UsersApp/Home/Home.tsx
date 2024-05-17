@@ -4,8 +4,8 @@ import Input from 'components/Input/Input'
 import Button from 'components/Button/Button'
 
 import { HomePageWrapper, UserForm, UserFormName } from "./styles"
-import { useAppDispatch } from "../../../store/hooks"
-import { usersSliceActions } from "../../../store/redux/users/userSlice"
+import { useAppDispatch } from "store/hooks"
+import { usersSliceActions } from "store/redux/users/userSlice"
 import { v4 } from "uuid"
 
 function Home() {
@@ -17,6 +17,9 @@ function Home() {
       jobTitle: "",
     },
     onSubmit: (values) => {
+      if(!values.firstlastName || !values.age || !values.jobTitle || !values.jobTitle) {
+        return;
+      }
       dispatch(usersSliceActions.addUser({...values, id: v4()}))
     },
   })

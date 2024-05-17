@@ -6,6 +6,7 @@ export const UsersPageWrapper = styled.div`
   align-items: stretch;
   height: fit-content;
   gap: 24px;
+  flex-direction: column;
 `
 
 export const UserCard = styled.div`
@@ -16,6 +17,14 @@ export const UserCard = styled.div`
   padding: 20px;
   border-radius: 8px;
   border: 1px solid black;
+    
+`
+
+export const UserId = styled.div`
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration-line: underline;
 `
 
 export const Paragraph = styled.p`
@@ -23,4 +32,8 @@ export const Paragraph = styled.p`
   text-overflow: ellipsis;
   overflow: hidden;
   font-size: 16px;
+`
+
+export const ButtonContainer = styled.div`
+    width: 200px;
 `

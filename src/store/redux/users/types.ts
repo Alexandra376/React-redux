@@ -7,4 +7,5 @@ export interface UserData{
 
 export interface UsersSliceState {
   users: UserData[]
+
 }

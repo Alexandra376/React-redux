@@ -1,4 +1,4 @@
-import { ButtonProps } from './types'
+import type { ButtonProps } from './types'
 import {ButtonStyle} from './style';
 
 function Button({ name, type = "button", disabled=false, handlerButton}: ButtonProps) {

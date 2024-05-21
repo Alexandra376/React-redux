@@ -4,8 +4,9 @@ import { counterSlice } from "./redux/counter/counterSlice"
 import { feedbackSlice } from "./redux/feedback/feedbackSlice"
 import { usersSlice } from "./redux/users/userSlice"
 import { randomJokesSlice } from "./redux/randomJokes/randomJokesSlice"
+import { activityRandomizerSlice } from "./redux/activityRandomizer/activityRandomizerSlice"
 
-const rootReducer = combineSlices(counterSlice, feedbackSlice, usersSlice, randomJokesSlice)
+const rootReducer = combineSlices(counterSlice, feedbackSlice, usersSlice, randomJokesSlice, activityRandomizerSlice)
 
 export type RootState = ReturnType<typeof rootReducer>
 
